@@ -1,0 +1,421 @@
+{
+  "purpose": "Local public-source staging inventory; not uploaded",
+  "file_count": 59,
+  "source_file_count": 35,
+  "python_file_count": 35,
+  "files": [
+    {
+      "path": ".gitignore",
+      "source_origin": null,
+      "sha256": "3d999e80ca10ac2faa77a583193e5c3be2be05b5ed2079ab112ad6d8920474e6",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "DATA_AND_MODEL_POLICY.md",
+      "source_origin": null,
+      "sha256": "6aa74599498dd864f5a144025af7d164d1846cb30305b3d9d746ed185c0f8a6c",
+      "modified_for_release": false,
+      "note": "Documents the intentional exclusion of trained weights and input-data reproduction policy."
+    },
+    {
+      "path": "PUBLIC_SOURCE_AUDIT.md",
+      "source_origin": null,
+      "sha256": "a414755c08b3a49eedd2955c0faa7aed7b711df757fe1a7726e2651579e5fff9",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "README.md",
+      "source_origin": null,
+      "sha256": "7d3080da01634920ff7075fda49243560f34e87d9b41182710f5e2a13c0dfca1",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/CloudEdge_Function_Reconfiguration_Paper_20261026/code/R151_PROTOCOL.md",
+      "source_origin": "Other/research/rl/code-aware-continuum-fusion-simulation-20261003-r2/r8_faasrank_extension/R151_PROTOCOL.md",
+      "sha256": "e5c906636580a97e9a5028d011bdb5cbb576779d9c0529d23ff8339a9801fa11",
+      "modified_for_release": true,
+      "note": "Copied and updated the shared-simulator reference for release."
+    },
+    {
+      "path": "easr-simulation/CloudEdge_Function_Reconfiguration_Paper_20261026/code/R152_PROTOCOL.md",
+      "source_origin": "Other/research/rl/code-aware-continuum-fusion-simulation-20261003-r2/r8_faasrank_extension/R152_PROTOCOL.md",
+      "sha256": "c1ca4f8993b601492b6630240c7a57245cea97f5a57195289bfe8cc36cd3a2e7",
+      "modified_for_release": true,
+      "note": "Copied with a release note that the R116 probe and sensitivity grid are excluded."
+    },
+    {
+      "path": "easr-simulation/CloudEdge_Function_Reconfiguration_Paper_20261026/code/R153_PROTOCOL.md",
+      "source_origin": "Other/research/rl/code-aware-continuum-fusion-simulation-20261003-r2/r8_faasrank_extension/R153_PROTOCOL.md",
+      "sha256": "e1b40b9d0895e4c2845f0ce025b2ef36022e2988e3dc6a6b417a01939e6be9c2",
+      "modified_for_release": true,
+      "note": "Copied with a release note that the R116 probe and sensitivity grid are excluded."
+    },
+    {
+      "path": "easr-simulation/CloudEdge_Function_Reconfiguration_Paper_20261026/code/r151_stopping_ppo_smoke.py",
+      "source_origin": "Other/CloudEdge_Function_Reconfiguration_Paper_20261026/code/r151_stopping_ppo_smoke.py",
+      "sha256": "bb8c26135c9b9b1bd605e04ac2b9eb1f403cd6f0478f5110d23f7930bde91599",
+      "modified_for_release": true,
+      "note": "Imports the extracted workflow_core module instead of the former R116 probe file."
+    },
+    {
+      "path": "easr-simulation/CloudEdge_Function_Reconfiguration_Paper_20261026/code/r152_stopping_ppo_formal.py",
+      "source_origin": "Other/CloudEdge_Function_Reconfiguration_Paper_20261026/code/r152_stopping_ppo_formal.py",
+      "sha256": "5f74730aeabaaa2e249a6f8b9201ce139162ba13e0bf37941e9af64b2dd20a58",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/CloudEdge_Function_Reconfiguration_Paper_20261026/code/r153_candidate_wan.py",
+      "source_origin": "Other/CloudEdge_Function_Reconfiguration_Paper_20261026/code/r153_candidate_wan.py",
+      "sha256": "136fd2801b6ed21faddb6055321407da5dd68d032ac03ccabafcfdfd778a133f",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/CloudEdge_Function_Reconfiguration_Paper_20261026/code/workflow_core.py",
+      "source_origin": "Other/research/rl/code-aware-continuum-fusion-simulation-20261003-r2/r8_faasrank_extension/r116_similarity_probe.py",
+      "sha256": "7d6f0606b3ef5387cac92db47448b31b39e7064ce47d7216ce7b516c28b94c36",
+      "modified_for_release": true,
+      "note": "Extracted only shared simulator primitives; excluded the similarity probe and threshold grid."
+    },
+    {
+      "path": "easr-simulation/README.md",
+      "source_origin": null,
+      "sha256": "b977d38b24ff6cec2a572cf4e5c9b6ac1033199e4c116734d103449642a2faf2",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/requirements.txt",
+      "source_origin": "Other/CloudEdge_Function_Reconfiguration_Paper_20261026/requirements.txt",
+      "sha256": "dfc070888c0200eb70602ec941e6843f00295c07fd4ee702fd607de5f5a49e1c",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/research/rl/overnight_scale_20261028/PROTOCOL.md",
+      "source_origin": "Other/research/rl/overnight_scale_20261028/PROTOCOL.md",
+      "sha256": "81d043df7ef45082b09cb63c865ec26cf6424d1777a1d67f4f89b6dbbbc277bd",
+      "modified_for_release": true,
+      "note": "Private host and absolute run directory removed from release copy."
+    },
+    {
+      "path": "easr-simulation/research/rl/overnight_scale_20261028/suite.py",
+      "source_origin": "Other/research/rl/overnight_scale_20261028/suite.py",
+      "sha256": "ad85cb5af085d9382fabdeaf725c612591e7a04202f6799161c960098e69574b",
+      "modified_for_release": true,
+      "note": "Frozen source binding now points to workflow_core.py."
+    },
+    {
+      "path": "easr-simulation/research/rl/r187_twenty_function_scale/PROTOCOL.md",
+      "source_origin": "Other/research/rl/r187_twenty_function_scale/PROTOCOL.md",
+      "sha256": "38155cc270da9038e227828d9049d375bb18b22ac083003e9c2da5a309b5aec8",
+      "modified_for_release": true,
+      "note": "Experiment protocol required by the staged runner."
+    },
+    {
+      "path": "easr-simulation/research/rl/r187_twenty_function_scale/core.py",
+      "source_origin": "Other/research/rl/r187_twenty_function_scale/core.py",
+      "sha256": "72e7fde73b84ba889c17de12f96511c3e01e355e095d1e6eb1b57395107f1cde",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/research/rl/r187_twenty_function_scale/engine.py",
+      "source_origin": "Other/research/rl/r187_twenty_function_scale/engine.py",
+      "sha256": "963a71d07a2a61c84f1a4d293f43c4e4b9e08134f2d676a7115eba5e6e18892c",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/research/rl/r187_twenty_function_scale/generate_profiles.py",
+      "source_origin": null,
+      "sha256": "fa3ffe987cd2e748a1ae88b0933630000099ecd564866983a9760c582ffa0829",
+      "modified_for_release": true,
+      "note": "Added deterministic profile-only generation entry point; does not start training."
+    },
+    {
+      "path": "easr-simulation/research/rl/r187_twenty_function_scale/run.py",
+      "source_origin": "Other/research/rl/r187_twenty_function_scale/run.py",
+      "sha256": "cd9aa64505a0842754aff38f7f46e0710a066d195b5429c86d395168a9274fd6",
+      "modified_for_release": true,
+      "note": "Frozen source binding now points to workflow_core.py."
+    },
+    {
+      "path": "easr-simulation/research/rl/r188_twenty_function_grl/PROTOCOL.md",
+      "source_origin": "Other/research/rl/r188_twenty_function_grl/PROTOCOL.md",
+      "sha256": "576277561f053f41334706eb3930518c214fec59db1cc29e0d5adf7fc55c80db",
+      "modified_for_release": true,
+      "note": "Experiment protocol required by the staged runner."
+    },
+    {
+      "path": "easr-simulation/research/rl/r188_twenty_function_grl/run_grl.py",
+      "source_origin": "Other/research/rl/r188_twenty_function_grl/run_grl.py",
+      "sha256": "90370c8f6b851b8e0b2907c5892061d79a1be35ca1322bc1fea5d04864d47d22",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/research/rl/r188_twenty_function_grl/vendor/r8_grl_orch.py",
+      "source_origin": "Other/research/rl/r188_twenty_function_grl/vendor/r8_grl_orch.py",
+      "sha256": "c284cd3bec4d6acc414c41d48439cebaf43eb01b13588a6c4031867ae84468ea",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/research/rl/r188_twenty_function_grl/vendor/r8_policy_adapters.py",
+      "source_origin": "Other/research/rl/r188_twenty_function_grl/vendor/r8_policy_adapters.py",
+      "sha256": "fa30bfa4f7f4e906dfd16210fdb9862de4151b7dbc9c41bb9d1db84505e507d6",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/research/rl/r190_twenty_function_confirm500/PROTOCOL.md",
+      "source_origin": "Other/research/rl/r190_twenty_function_confirm500/PROTOCOL.md",
+      "sha256": "67efb46382c8eae171d67af070706fb0daa2a3caa20db7e8bb8244c4aee597c5",
+      "modified_for_release": true,
+      "note": "Experiment protocol."
+    },
+    {
+      "path": "easr-simulation/research/rl/r190_twenty_function_confirm500/run.py",
+      "source_origin": "Other/research/rl/r190_twenty_function_confirm500/run.py",
+      "sha256": "80e24956805ffccfd75db58871f127fe8ff76a20e463259704f8b48a3a441f5d",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/research/rl/r190_twenty_function_confirm500/run_grl_confirmation.py",
+      "source_origin": "Other/research/rl/r190_twenty_function_confirm500/run_grl_confirmation.py",
+      "sha256": "5405dec859808bf07872527e60408c0aaf4092c9351f97907a487c28ba16b942",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/research/rl/r194_configuration_coverage/PROTOCOL.md",
+      "source_origin": "Other/research/rl/r194_configuration_coverage/PROTOCOL.md",
+      "sha256": "22a7da07e99e0ca5f188402a6efeac1eeb2af31fa318cff689264170ec82befa",
+      "modified_for_release": true,
+      "note": "Experiment protocol required by the staged runner."
+    },
+    {
+      "path": "easr-simulation/research/rl/r194_configuration_coverage/reference_suite.py",
+      "source_origin": "Other/research/rl/r194_configuration_coverage/reference_suite.py",
+      "sha256": "ad85cb5af085d9382fabdeaf725c612591e7a04202f6799161c960098e69574b",
+      "modified_for_release": true,
+      "note": "Frozen source binding now points to workflow_core.py."
+    },
+    {
+      "path": "easr-simulation/research/rl/r194_configuration_coverage/run.py",
+      "source_origin": "Other/research/rl/r194_configuration_coverage/run.py",
+      "sha256": "ac7b40bd880b65617b872de09b48839555e548c14f812cca7ec46fe97006ec7d",
+      "modified_for_release": true,
+      "note": "Uses the neutral full_config_manifest.json output name in the release copy; algorithm unchanged."
+    },
+    {
+      "path": "easr-simulation/research/rl/r199_live_snapshot_review/run.py",
+      "source_origin": "Other/research/rl/r199_live_snapshot_review/run.py",
+      "sha256": "fa628241ac0796e9c606119f17c6f468d92642455cc190ddacf4b1a72dec4410",
+      "modified_for_release": true,
+      "note": "Uses the neutral full_config_manifest.json input name in the release copy; evaluation logic unchanged."
+    },
+    {
+      "path": "easr-simulation/research/rl/r209_grl_response_objective/PROTOCOL.md",
+      "source_origin": "Other/research/rl/r209_grl_response_objective/PROTOCOL.md",
+      "sha256": "a9e0c1268aa6d287457477560cbc2bb6bc1ee422c50bdb4a38f1f5bb96068eb9",
+      "modified_for_release": true,
+      "note": "Experiment protocol."
+    },
+    {
+      "path": "easr-simulation/research/rl/r209_grl_response_objective/run.py",
+      "source_origin": "Other/research/rl/r209_grl_response_objective/run.py",
+      "sha256": "8ea677043a8bb5d0544550bb239205ccffcfdce5f3374e16c85a14493fed81a3",
+      "modified_for_release": true,
+      "note": "Uses the neutral full_config_manifest.json input name in the release copy; training objective unchanged."
+    },
+    {
+      "path": "easr-simulation/research/rl/r211_remaining_review_queue/README.md",
+      "source_origin": null,
+      "sha256": "ee7f51be472620b401da5879ceec2e0b5b4ec2685449162092432141f8f4b2cd",
+      "modified_for_release": true,
+      "note": "Describes the extracted rolling-transition helper and omitted sensitivity runner."
+    },
+    {
+      "path": "easr-simulation/research/rl/r211_remaining_review_queue/rolling_transition.py",
+      "source_origin": "Other/research/rl/r211_remaining_review_queue/run.py",
+      "sha256": "119ea83f6375026bfa6759268edb4f254743e3ab5729bd8dbdbebd3c6660d9d5",
+      "modified_for_release": true,
+      "note": "Extracted the rolling transition helper used by R218; omitted the standalone response-delay sensitivity runner."
+    },
+    {
+      "path": "easr-simulation/research/rl/r211_remaining_review_queue/summarize.py",
+      "source_origin": "Other/research/rl/r211_remaining_review_queue/summarize.py",
+      "sha256": "8e1c009c62307c76182b15418452ac991956ddaa89ec8f99c410806deb467844",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/research/rl/r218_final_frozen_confirmation/PROTOCOL.md",
+      "source_origin": "Other/research/rl/r218_final_frozen_confirmation/PROTOCOL.md",
+      "sha256": "5453e846d9753ba668792c66a0e54a143380dcd4fdab941f7cc07bc5fc3c6bc0",
+      "modified_for_release": true,
+      "note": "Protocol documenting the frozen confirmation evaluator and its limitations."
+    },
+    {
+      "path": "easr-simulation/research/rl/r218_final_frozen_confirmation/compare_baselines.py",
+      "source_origin": "Other/research/rl/r218_final_frozen_confirmation/compare_baselines.py",
+      "sha256": "fa88d9212d9df0e648c3109d47a9fc79c21e3b44da8c03c4bef8dfd74ecd29ca",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "easr-simulation/research/rl/r218_final_frozen_confirmation/run.py",
+      "source_origin": "Other/research/rl/r218_final_frozen_confirmation/run.py",
+      "sha256": "8fbd2511f4cbf6ea12d1c9a8807ce4f1bc64c6738573de387ee48a9f8860ede4",
+      "modified_for_release": true,
+      "note": "Uses the neutral full_config_manifest.json input name in the release copy; confirmation logic unchanged."
+    },
+    {
+      "path": "easr-simulation/research/rl/r218_final_frozen_confirmation/summarize.py",
+      "source_origin": "Other/research/rl/r218_final_frozen_confirmation/summarize.py",
+      "sha256": "1ca54212713d95b2a920fd331b4199363ac0284c77c952fb5914f9ca7c37995b",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "openfaas-replay/PROTOCOL.md",
+      "source_origin": null,
+      "sha256": "7566a072410db5f152d17fef10fe0d36778702562e8b4744829d05f136819c4d",
+      "modified_for_release": true,
+      "note": "Protocol documenting R366 workload, platform, and reproduction limits."
+    },
+    {
+      "path": "openfaas-replay/README.md",
+      "source_origin": null,
+      "sha256": "7e2a4a0c30cb1cf107b2d66d1b7d354dc17ecb4f4559ead289000c9e220db909",
+      "modified_for_release": false,
+      "note": ""
+    },
+    {
+      "path": "openfaas-replay/research/real_platform/openfaas_scene1_rl_live_20261105/r336_live_baseline_extension/R336_PROTOCOL.md",
+      "source_origin": "Other/research/real_platform/openfaas_scene1_rl_live_20261105/r336_live_baseline_extension/R336_PROTOCOL.md",
+      "modified_for_release": true,
+      "note": "Source protocol copied; machine identifier removed.",
+      "sha256": "9b3d79606055d085a924bd763b748fa67209aacce582404ec715e86a0a0c9008"
+    },
+    {
+      "path": "openfaas-replay/research/real_platform/openfaas_scene1_rl_live_20261105/r336_live_baseline_extension/prepare_targets.py",
+      "source_origin": "Other/research/real_platform/openfaas_scene1_rl_live_20261105/r336_live_baseline_extension/prepare_targets.py",
+      "modified_for_release": false,
+      "note": "Copied R336 target-generation source; private weights and generated targets are excluded.",
+      "sha256": "07b532d61f9aa333f1c2b6efc94045a7084f94ba3f1467bf7afc0932af77459f"
+    },
+    {
+      "path": "openfaas-replay/research/real_platform/openfaas_scene1_rl_live_20261105/r336_live_baseline_extension/vendor/r8_grl_orch.py",
+      "source_origin": "Other/research/real_platform/openfaas_scene1_rl_live_20261105/r336_live_baseline_extension/vendor/r8_grl_orch.py",
+      "modified_for_release": false,
+      "note": "Copied the GRL adapter implementation used by R336/R361.",
+      "sha256": "c284cd3bec4d6acc414c41d48439cebaf43eb01b13588a6c4031867ae84468ea"
+    },
+    {
+      "path": "openfaas-replay/research/real_platform/openfaas_scene1_rl_live_20261105/r336_live_baseline_extension/vendor/r8_policy_adapters.py",
+      "source_origin": "Other/research/real_platform/openfaas_scene1_rl_live_20261105/r336_live_baseline_extension/vendor/r8_policy_adapters.py",
+      "modified_for_release": false,
+      "note": "Copied the policy adapter used by the GRL helper.",
+      "sha256": "fa30bfa4f7f4e906dfd16210fdb9862de4151b7dbc9c41bb9d1db84505e507d6"
+    },
+    {
+      "path": "openfaas-replay/research/real_platform/openfaas_scene1_rl_live_20261105/r366_same_model_cross_window_replay_20261114/run_r366_live_controller.py",
+      "source_origin": "Other/research/real_platform/openfaas_scene1_rl_live_20261105/r366_same_model_cross_window_replay_20261114/run_r366_live_controller.py",
+      "sha256": "cb1186dc0c14234d390f46d2723a2cba427d93d20be0e2e5c74bbf7e232166fb",
+      "modified_for_release": true,
+      "note": "Uses packaged R187/R329/R361 sources and R366_PRIVATE_ARTIFACT_ROOT for frozen private artifacts."
+    },
+    {
+      "path": "openfaas-replay/research/real_platform/openfaas_scene1_rl_live_20261105/r366_same_model_cross_window_replay_20261114/run_r366_six_cell_replay.py",
+      "source_origin": "Other/research/real_platform/openfaas_scene1_rl_live_20261105/r366_same_model_cross_window_replay_20261114/run_r366_six_cell_replay.py",
+      "sha256": "a2aaad82a7ee97dbd19e3d7cb4665c3be1915d81c1128aa58c3497392118cd28",
+      "modified_for_release": true,
+      "note": "KUBECONFIG now honors the caller environment before the standard K3s default."
+    },
+    {
+      "path": "openfaas-replay/research/real_platform/openfaas_scene1_scale8_real_20261104/run_real_s1_scale8.py",
+      "source_origin": "Other/research/real_platform/openfaas_scene1_scale8_real_20261104/run_real_s1_scale8.py",
+      "sha256": "b16e4386bd206ceb2169460cf63aa5005d75b97cf888457d0be0bdfdde94055b",
+      "modified_for_release": true,
+      "note": "Private registry image reference replaced by OPENFAAS_FUNCTION_IMAGE; deployment fails closed when unset."
+    },
+    {
+      "path": "openfaas-replay/research/rl/README.md",
+      "source_origin": null,
+      "modified_for_release": true,
+      "note": "Documents the R366 companion source dependency chain and private artifact boundary.",
+      "sha256": "fe64911bebf0572eaf1858db0c33167b0cfed50aae358a58be2cf6939a0b719b"
+    },
+    {
+      "path": "openfaas-replay/research/rl/r328_scene1_scale8_mechanism/PROTOCOL.md",
+      "source_origin": "Other/research/rl/r328_scene1_scale8_mechanism/PROTOCOL.md",
+      "modified_for_release": false,
+      "note": "Copied the experiment protocol.",
+      "sha256": "5d6d9177fd74ce0b394ee7be96ad5acf6532174bd3547515f7e9f0914ba6caf7"
+    },
+    {
+      "path": "openfaas-replay/research/rl/r328_scene1_scale8_mechanism/run.py",
+      "source_origin": "Other/research/rl/r328_scene1_scale8_mechanism/run.py",
+      "modified_for_release": true,
+      "note": "Copied the experiment runner; changed only the R187 path to the packaged simulator root and redirected the source-binding helper.",
+      "sha256": "303357419cf0f437a7fe318d2a307aed01d2dadd9e40e497f5eee703462985bf"
+    },
+    {
+      "path": "openfaas-replay/research/rl/r329_trace_driven_replay/PROTOCOL.md",
+      "source_origin": "Other/research/rl/r329_trace_driven_replay/R329_TRACE_REPLAY_PROTOCOL.md",
+      "modified_for_release": true,
+      "note": "Copied experiment protocol; generalized the preloaded image statement for release.",
+      "sha256": "e20cb5a0e5ed120a2a03784c07431b76ba5cc262ff34421b4ed79767c4e777ed"
+    },
+    {
+      "path": "openfaas-replay/research/rl/r329_trace_driven_replay/prepare_azure_traces.py",
+      "source_origin": "Other/research/rl/r329_trace_driven_replay/prepare_azure_traces.py",
+      "modified_for_release": false,
+      "note": "Copied the experiment trace-preparation script; input Azure data is excluded.",
+      "sha256": "94c6ff56033f12019a925f6dd2e29408dc7b50fa294cabb8b941c1497de69477"
+    },
+    {
+      "path": "openfaas-replay/research/rl/r329_trace_driven_replay/run_r329_simulation.py",
+      "source_origin": "Other/research/rl/r329_trace_driven_replay/run_r329_simulation.py",
+      "modified_for_release": false,
+      "note": "Copied the experiment replay driver; input traces and outputs are excluded.",
+      "sha256": "409b1eef02f477bd78ca2203188bc7719d0b07e6e6ed492e04d45977b690b043"
+    },
+    {
+      "path": "openfaas-replay/research/rl/r361_scene1_8fn_live_models_20261112/PROTOCOL.md",
+      "source_origin": "Other/research/rl/r361_scene1_8fn_live_models_20261112/PROTOCOL.md",
+      "modified_for_release": true,
+      "note": "Copied the experiment protocol; removed machine-specific run location.",
+      "sha256": "1caf16b7e88bf1b0558ef48d63ac7146d6a851ce5f55f6b7db0cef200416c579"
+    },
+    {
+      "path": "openfaas-replay/research/rl/r361_scene1_8fn_live_models_20261112/run_r361_8fn_live_models.py",
+      "source_origin": "Other/research/rl/r361_scene1_8fn_live_models_20261112/run_r361_8fn_live_models.py",
+      "modified_for_release": false,
+      "note": "Copied R361 training and helper source; generated input streams, target files, outputs, and weights are excluded.",
+      "sha256": "fdfb4f964a60408edc15211558c251f1da2b5a83c180517ec5786f70bfc7ce75"
+    },
+    {
+      "path": "openfaas-replay/tools/prepare_azure_sequences.py",
+      "source_origin": null,
+      "sha256": "870d910e50ecd83c0c9b8abb5294186308d6910036aa788e2ce355a3bc25f066",
+      "modified_for_release": true,
+      "note": "Copied deterministic Azure sequence generation/preprocessing code; raw dataset is not included."
+    },
+    {
+      "path": "openfaas-replay/tools/prepare_r366_profile.py",
+      "source_origin": null,
+      "sha256": "f2689907a2f53d621a89531cc6cc471d30b9a8a576e10cd5817c06dd23fe015a",
+      "modified_for_release": true,
+      "note": "Added deterministic synthetic profile and initial-layout generator; not executed as part of this audit."
+    }
+  ]
+}

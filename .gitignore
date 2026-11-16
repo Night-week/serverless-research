@@ -1,0 +1,46 @@
+# Generated experiment artifacts and trained models
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.DS_Store
+**/outputs/
+**/runs/
+**/profiles/
+**/checkpoints/
+**/models/
+**/grl_outputs/
+*.pt
+*.pth
+*.joblib
+*.pkl
+*.pickle
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.parquet
+*.arrow
+*.csv
+*.tar
+*.tar.*
+*.xz
+
+# Secrets and machine-specific access material
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+kubeconfig*
+
+# Data and parameter-sensitivity materials are intentionally kept out of this staging area
+**/azure_sequence_streams.json
+**/inputs/*
+**/data/**
+**/datasets/**
+**/sensitivity/
+**/*sensitivity*
+/private-dependencies/
+
