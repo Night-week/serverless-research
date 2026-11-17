@@ -2,7 +2,7 @@
 
 ## Scope
 
-This is a local source-staging directory. It has not been uploaded. It includes two separate tracks: the two-resource-pool simulation source lineage and the eight-function OpenFaaS replay harness.
+This document records the source staging audit. It includes two separate tracks: the two-resource-pool simulation source lineage and the eight-function OpenFaaS replay harness.
 
 ## Release-preparation changes
 
@@ -31,11 +31,10 @@ This is a local source-staging directory. It has not been uploaded. It includes 
 - Completed a bilingual terminology scan and context review of all staged files; no flagged content remained. The source inventory and release text use neutral labels.
 - No experiment, generator, or test suite was run during this packaging pass. The two profile generators therefore remain unexecuted and should be checked before the package is described as validated.
 
-## Remaining before public release
+## Release terms and follow-up
 
-1. Choose a repository license and review attribution/compatibility for all included source and dependencies.
+1. See [LICENSE](LICENSE) for the viewing and reference terms. Third-party materials retain their respective terms.
 2. Run and review the two R366 input-generation scripts before claiming the generated files reproduce the frozen historical inputs. The Azure trace-preparation script is adapted from R332; the synthetic profile generator is a new deterministic release helper, not copied from a historical R366 generator.
 3. The R218 and R366 source bundles are not turnkey reproductions of results obtained with private checkpoints and historical manifests. Preserve that limitation in the paper/repository description.
-4. The `GitHub/` directory is not yet a Git repository and has no remote. No commit or upload has been made; authenticated GitHub access is still needed to create the private remote.
 
 The file/hash inventory is maintained in `SOURCE_MANIFEST.json`. It intentionally excludes itself because a self-hash would change the file recursively.

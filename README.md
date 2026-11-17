@@ -1,6 +1,8 @@
-# GitHub public-source staging
+# Serverless function fusion research
 
-This directory is a local preparation area for source code related to the serverless function-fusion paper. Nothing here has been uploaded or pushed to GitHub.
+This repository contains research source code for the serverless function-fusion paper.
+
+**For viewing and reference only. All rights reserved.** See [LICENSE](LICENSE).
 
 ## Included
 
@@ -15,7 +17,7 @@ This directory is a local preparation area for source code related to the server
 
 Synthetic inputs are generated from included scripts where possible, and external traces are cited with their preprocessing recipe instead of copied wholesale. The shared four-function simulator has been extracted to `workflow_core.py`; the R116 similarity/threshold probe and its grid are excluded. Protocol files required by the staged simulation drivers are included. R187 profiles and R366's synthetic workflow and Azure-derived request windows have generation recipes, while exact R218/R366 frozen-checkpoint results still depend on intentionally private historical artifacts. See [DATA_AND_MODEL_POLICY.md](DATA_AND_MODEL_POLICY.md) for that boundary.
 
-## Before a public release
+## Attribution and reproducibility
 
-The GRL baseline is based on [*Structure-Aware Serverless Orchestration via Graph Reinforcement Learning: Joint Optimization of Function Fusion and Placement*](https://ieeexplore.ieee.org/abstract/document/11657977). Our R181 implementation of that method is the code carried into R188; it is not code released by the paper's authors or a full reproduction of their original experiments. Before public release, choose a license and complete attribution review. The simulation and replay sources are not turnkey reproductions of results obtained with private checkpoints and historical manifests. These boundaries are recorded in [PUBLIC_SOURCE_AUDIT.md](PUBLIC_SOURCE_AUDIT.md) and [DATA_AND_MODEL_POLICY.md](DATA_AND_MODEL_POLICY.md).
+The GRL baseline is based on [*Structure-Aware Serverless Orchestration via Graph Reinforcement Learning: Joint Optimization of Function Fusion and Placement*](https://ieeexplore.ieee.org/abstract/document/11657977). Our R181 implementation of that method is the code carried into R188; it is not code released by the paper's authors or a full reproduction of their original experiments. The simulation and replay sources are not turnkey reproductions of results obtained with private checkpoints and historical manifests. These boundaries are recorded in [PUBLIC_SOURCE_AUDIT.md](PUBLIC_SOURCE_AUDIT.md) and [DATA_AND_MODEL_POLICY.md](DATA_AND_MODEL_POLICY.md).
 

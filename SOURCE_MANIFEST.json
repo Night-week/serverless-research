@@ -1,6 +1,6 @@
 {
-  "purpose": "Local public-source staging inventory; not uploaded",
-  "file_count": 59,
+  "purpose": "Research source inventory",
+  "file_count": 60,
   "source_file_count": 35,
   "python_file_count": 35,
   "files": [
@@ -19,16 +19,23 @@
       "note": "Documents the intentional exclusion of trained weights and input-data reproduction policy."
     },
     {
+      "path": "LICENSE",
+      "source_origin": null,
+      "sha256": "48a46294769ae670022520d4c4be8b9d6d4cc58d0a96c9e141d77c94a867e31e",
+      "modified_for_release": false,
+      "note": "Research source viewing and reference terms."
+    },
+    {
       "path": "PUBLIC_SOURCE_AUDIT.md",
       "source_origin": null,
-      "sha256": "a414755c08b3a49eedd2955c0faa7aed7b711df757fe1a7726e2651579e5fff9",
+      "sha256": "b29ae59847039a5532acb062f583c1a93eb03c1699c9b56535404f3ef8ffd5d6",
       "modified_for_release": false,
       "note": ""
     },
     {
       "path": "README.md",
       "source_origin": null,
-      "sha256": "7d3080da01634920ff7075fda49243560f34e87d9b41182710f5e2a13c0dfca1",
+      "sha256": "c331b2eace76e4938c51939d669af34b5e0ffebda21fceb7cbff1204308ab1f6",
       "modified_for_release": false,
       "note": ""
     },
